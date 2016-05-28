@@ -13,6 +13,7 @@ class EmployeeManagement extends Migration
     public function up()
     {
         //
+        Schema::create();
     }
 
     /**
@@ -23,7 +24,6 @@ class EmployeeManagement extends Migration
     public function down()
     {
         //
-        Schema::drop('emp_management'); 
-        //Changed here.
+        Schema::drop('');
     }
 }
