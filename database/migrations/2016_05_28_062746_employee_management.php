@@ -24,5 +24,6 @@ class EmployeeManagement extends Migration
     {
         //
         Schema::drop('emp_management');
+        //Manish Changed here.
     }
 }
