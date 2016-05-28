@@ -23,5 +23,6 @@ class EmployeeManagement extends Migration
     public function down()
     {
         //
+        Schema::drop('emp_management');
     }
 }
