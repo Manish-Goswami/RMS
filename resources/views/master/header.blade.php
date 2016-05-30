@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)https://checkout.sandbox.netsuite.com/c.3778702/tempo/index.ssp -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Tempo | Tempo Portal Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="<?php echo URL::asset('/assets/css/bootstrap.min.css');  ?>">
+    <link rel="stylesheet" href="<?php echo URL::asset('/assets/css/responsive.bootstrap.min.css');  ?>">
+    <link rel="stylesheet" href="<?php echo URL::asset('/assets/css/jquery-ui.css');  ?>">
+    <link rel="stylesheet" href="<?php echo URL::asset('/assets/css/jquery.dataTables.min.css');  ?>">
+    <link rel="stylesheet" href="<?php echo URL::asset('/assets/css/bootstrap-multiselect.css');  ?>">
+    
+    <style>
+    /*main css*/
+    html,
+    body{
+        font-size: 16px;
+        /*font-family: Arial, sans-serif !important;*/
+        font-family: Roboto Condensed;
+        color: #3C3C3C;
+    }
+    hr{
+        border-top-color: #ADADAD;
+    }
+    button {
+	    margin-left: 10px;
+	}
+	thead{
+	   background-color: #E6E6E6;
+	}
+	label {
+	    display: block;
+	    color: #9A9A9A;
+	    font-size: 0.8em;
+	}	
+    .dashboard-tile{
+        text-align: center;
+        cursor: pointer;
+        height: 110px;
+        margin-bottom: 15px;
+        color: white;
+    }
+    .dashboard-header{
+        background-color: #333333;
+        padding: 5px;
+        font-size: 1.1em;
+    }
+    #tile1{
+        background-color: #B74B1F;
+    }
+    #tile2{
+        background-color: #DA9642;
+    }
+    #tile3{
+        background-color: #009A70;
+    }
+    #tile4{
+        background-color: #25A6AF;
+    }
+    #splash{
+        background: url("<?php echo URL::asset('assets/images/header.jpg');  ?>") no-repeat;
+        background-size: cover;
+        background-position: 50% 30%;
+        height: 220px;
+        margin-bottom: 20px;
+    }
+    
+    /*navbar*/    
+    .navbar-nav{
+	    padding-top: 10px;
+	}
+	nav>li>a{
+	    padding-top: 20px;
+	    padding-bottom: 5px;
+	}
+    #lst-welcome{
+        margin-top: 14px;
+        margin-left: 15px;
+        font-size: 1.1em;
+    }
+        
+    /*datatable*/
+    .dataTables_wrapper .dataTables_paginate .paginate_button.current,
+    .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+        color: #333 !important;
+        border: 1px solid #979797;
+        background: none;
+    }
+    .dataTables_wrapper .dataTables_paginate .paginate_button:hover{
+        color: #333 !important;
+        border: 1px solid #979797;
+        background: none;
+        background-color: #E4E4E4;
+    }
+    table.dataTable thead th,
+    table.dataTable thead td,
+    .dataTables_wrapper.no-footer .dataTables_scrollBody,
+    table.dataTable.no-footer{
+        border-bottom: 1px solid #E4E4E4;
+    }
+    .dataTables_filter input{
+        display: inline;
+        height: 34px;
+        padding: 6px 12px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+        -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        margin-bottom: 10px;
+    }
+    .paginate_button{
+	    font-size: 0.8em;
+	}
+    
+    /*parsley css*/
+    .parsley-errors-list{
+        color: #B70000;
+    }
+    </style>
+    
+</head>

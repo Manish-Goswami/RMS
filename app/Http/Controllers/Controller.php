@@ -15,8 +15,11 @@ class Controller extends BaseController
 
     public function index(){
     	
-    	return view('form.index');
+    	return view('login');
     }
+    
+    
+    
 
 
 }
